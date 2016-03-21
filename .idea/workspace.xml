@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b79ed30-3b43-419a-9349-d261f3a16786" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/credit_card_form.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/credit_card_form.js.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/credit_card_form.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/credit_card_form.js.coffee" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/registrations_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/registrations_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/stripe.rb" afterPath="$PROJECT_DIR$/config/initializers/stripe.rb" />
     </list>
     <ignored path="photo-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,14 +38,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="credit_card_form.js.coffee" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/credit_card_form.js.coffee">
+      <file leaf-file-name="stripe.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/initializers/stripe.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.900369">
-              <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
-              <folding>
-                <marker date="1458541443000" expanded="true" signature="1252:1368" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="0.033210333">
+              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,18 +66,19 @@
         <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
         <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-        <option value="$PROJECT_DIR$/config/initializers/stripe.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20160321030323_create_payments.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/models/payment.rb" />
-        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/registrations_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/stripe.js" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/credit_card_form.js.coffee" />
+        <option value="$PROJECT_DIR$/app/controllers/registrations_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/credit_card_form.js" />
+        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
+        <option value="$PROJECT_DIR$/config/initializers/stripe.rb" />
       </list>
     </option>
   </component>
@@ -119,9 +124,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -258,30 +260,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="photo-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="photo-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -441,6 +424,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -469,28 +457,37 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21030043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21316166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961586" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961586" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961586" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283767" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961586" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -509,10 +506,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+    <entry file="file://$PROJECT_DIR$/config/initializers/stripe.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -521,7 +518,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -550,7 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.398524">
           <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -566,14 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3321033">
           <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="11" selection-end-column="81" />
-          <folding>
-            <marker date="1458525651000" expanded="true" signature="28:1728" placeholder="do ... end" />
-            <marker date="1458525651000" expanded="true" signature="33:350" placeholder="#..." />
-            <marker date="1458525651000" expanded="true" signature="1038:1208" placeholder="#..." />
-            <marker date="1458525651000" expanded="true" signature="1241:1385" placeholder="#..." />
-            <marker date="1458525651000" expanded="true" signature="1419:1577" placeholder="#..." />
-            <marker date="1458525651000" expanded="true" signature="1625:1724" placeholder="#..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -581,16 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49815497">
           <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding>
-            <marker date="1458525717000" expanded="true" signature="28:3465" placeholder="do ... end" />
-            <marker date="1458525717000" expanded="true" signature="33:160" placeholder="#..." />
-            <marker date="1458525717000" expanded="true" signature="194:445" placeholder="#..." />
-            <marker date="1458525717000" expanded="true" signature="802:1210" placeholder="#..." />
-            <marker date="1458525717000" expanded="true" signature="1361:1473" placeholder="#..." />
-            <marker date="1458525717000" expanded="true" signature="1509:1653" placeholder="#..." />
-            <marker date="1458525717000" expanded="true" signature="1687:2235" placeholder="#..." />
-            <marker date="1458525717000" expanded="true" signature="2267:3098" placeholder="#..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -621,23 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7306273">
           <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <marker date="1458527262000" expanded="true" signature="3:1443" placeholder="if ... end" />
-            <marker date="1458527262000" expanded="true" signature="107:276" placeholder="..." />
-            <marker date="1458527262000" expanded="true" signature="182:265" placeholder="..." />
-            <marker date="1458527262000" expanded="true" signature="298:1435" placeholder="..." />
-            <marker date="1458527262000" expanded="true" signature="333:1424" placeholder="..." />
-            <marker date="1458527262000" expanded="true" signature="385:853" placeholder="..." />
-            <marker date="1458527262000" expanded="true" signature="458:498" placeholder="..." />
-            <marker date="1458527262000" expanded="true" signature="531:710" placeholder="..." />
-            <marker date="1458527262000" expanded="true" signature="548:693" placeholder="..." />
-            <marker date="1458527262000" expanded="true" signature="724:838" placeholder="..." />
-            <marker date="1458527262000" expanded="true" signature="889:1411" placeholder="..." />
-            <marker date="1458527262000" expanded="true" signature="960:1000" placeholder="..." />
-            <marker date="1458527262000" expanded="true" signature="1033:1268" placeholder="..." />
-            <marker date="1458527262000" expanded="true" signature="1050:1251" placeholder="..." />
-            <marker date="1458527262000" expanded="true" signature="1282:1396" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -645,35 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36900368">
           <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
-          <folding>
-            <marker date="1458527922000" expanded="true" signature="11:261" placeholder="{...}" />
-            <marker date="1458527922000" expanded="true" signature="117:206" placeholder="{...}" />
-            <marker date="1458527922000" expanded="true" signature="226:259" placeholder="{...}" />
-            <marker date="1458527922000" expanded="true" signature="271:293" placeholder="{...}" />
-            <marker date="1458527922000" expanded="true" signature="313:360" placeholder="{...}" />
-            <marker date="1458527922000" expanded="true" signature="378:608" placeholder="{...}" />
-            <marker date="1458527922000" expanded="true" signature="395:481" placeholder="{...}" />
-            <marker date="1458527922000" expanded="true" signature="523:570" placeholder="{...}" />
-            <marker date="1458527922000" expanded="true" signature="578:606" placeholder="{...}" />
-            <marker date="1458527922000" expanded="true" signature="631:897" placeholder="{...}" />
-            <marker date="1458527922000" expanded="true" signature="640:693" placeholder="{...}" />
-            <marker date="1458527922000" expanded="true" signature="733:793" placeholder="{...}" />
-            <marker date="1458527922000" expanded="true" signature="835:895" placeholder="{...}" />
-            <marker date="1458527922000" expanded="true" signature="941:959" placeholder="{...}" />
-            <marker date="1458527922000" expanded="true" signature="971:1029" placeholder="{...}" />
-            <marker date="1458527922000" expanded="true" signature="978:1027" placeholder="{...}" />
-            <marker date="1458527922000" expanded="true" signature="1041:1378" placeholder="{...}" />
-            <marker date="1458527922000" expanded="true" signature="1396:1429" placeholder="{...}" />
-            <marker date="1458527922000" expanded="true" signature="1439:1481" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/stripe.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16605166">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -693,55 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26568267">
           <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding>
-            <marker date="1458529467000" expanded="true" signature="10:359" placeholder=" ... end" />
-            <marker date="1458529467000" expanded="true" signature="34:149" placeholder="#..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3321033">
-          <caret line="10" column="128" selection-start-line="10" selection-start-column="128" selection-end-line="10" selection-end-column="128" />
-          <folding>
-            <marker date="1458537065000" expanded="true" signature="46:128" placeholder="..." />
-            <marker date="1458537065000" expanded="true" signature="213:2616" placeholder="..." />
-            <marker date="1458537065000" expanded="true" signature="243:309" placeholder="..." />
-            <marker date="1458537065000" expanded="false" signature="257:293" placeholder="&quot;Sign up&quot;" />
-            <marker date="1458537065000" expanded="true" signature="336:2609" placeholder="..." />
-            <marker date="1458537065000" expanded="true" signature="471:2598" placeholder="do ... end" />
-            <marker date="1458537065000" expanded="true" signature="510:629" placeholder="..." />
-            <marker date="1458537065000" expanded="true" signature="660:777" placeholder="..." />
-            <marker date="1458537065000" expanded="true" signature="808:945" placeholder="..." />
-            <marker date="1458537065000" expanded="true" signature="982:2499" placeholder="do ... end" />
-            <marker date="1458537065000" expanded="true" signature="1028:2483" placeholder="..." />
-            <marker date="1458537065000" expanded="true" signature="1090:1306" placeholder="..." />
-            <marker date="1458537065000" expanded="true" signature="1352:1556" placeholder="..." />
-            <marker date="1458537065000" expanded="true" signature="1602:2466" placeholder="..." />
-            <marker date="1458537065000" expanded="true" signature="1640:1749" placeholder="..." />
-            <marker date="1458537065000" expanded="true" signature="1786:2113" placeholder="..." />
-            <marker date="1458537065000" expanded="true" signature="1804:2093" placeholder="&lt;%=...%&gt;" />
-            <marker date="1458537065000" expanded="true" signature="2150:2447" placeholder="..." />
-            <marker date="1458537065000" expanded="true" signature="2168:2427" placeholder="&lt;%=...%&gt;" />
-            <marker date="1458537065000" expanded="true" signature="2522:2558" placeholder="&quot;Sign up&quot;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/registrations_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9330855">
-          <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
-          <folding>
-            <marker date="1458539918000" expanded="true" signature="29:1387" placeholder=" ... end" />
-            <marker date="1458539918000" expanded="true" signature="77:1265" placeholder=" ... end" />
-            <marker date="1458539918000" expanded="true" signature="145:1259" placeholder="do ... end" />
-            <marker date="1458539918000" expanded="true" signature="212:1251" placeholder="if ... end" />
-            <marker date="1458539918000" expanded="true" signature="446:681" placeholder="begin ... end" />
-            <marker date="1458539918000" expanded="true" signature="691:1128" placeholder="if ... end" />
-            <marker date="1458539918000" expanded="true" signature="1315:1381" placeholder=" ... end" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,48 +641,6 @@
           <folding>
             <marker date="1458539965000" expanded="true" signature="30:1699" placeholder="do ... end" />
             <marker date="1458539965000" expanded="true" signature="134:1695" placeholder="#..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/payment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76383764">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding>
-            <marker date="1458529995000" expanded="true" signature="13:651" placeholder=" ... end" />
-            <marker date="1458529995000" expanded="true" signature="179:288" placeholder=" ... end" />
-            <marker date="1458529995000" expanded="true" signature="229:282" placeholder="{ ... }" />
-            <marker date="1458529995000" expanded="true" signature="313:370" placeholder=" ... end" />
-            <marker date="1458529995000" expanded="true" signature="393:646" placeholder=" ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2250923">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding>
-            <marker date="1458540444000" expanded="true" signature="31:3550" placeholder="..." />
-            <marker date="1458540444000" expanded="true" signature="38:1829" placeholder="..." />
-            <marker date="1458540444000" expanded="true" signature="1679:1819" placeholder="..." />
-            <marker date="1458540444000" expanded="true" signature="1836:3542" placeholder="..." />
-            <marker date="1458540444000" expanded="true" signature="1891:3298" placeholder="..." />
-            <marker date="1458540444000" expanded="true" signature="1917:3291" placeholder="..." />
-            <marker date="1458540444000" expanded="true" signature="2031:2156" placeholder="..." />
-            <marker date="1458540444000" expanded="true" signature="2276:3282" placeholder="..." />
-            <marker date="1458540444000" expanded="true" signature="2310:2472" placeholder="..." />
-            <marker date="1458540444000" expanded="true" signature="2517:3271" placeholder="..." />
-            <marker date="1458540444000" expanded="true" signature="2530:3257" placeholder="if ... end" />
-            <marker date="1458540444000" expanded="true" signature="2591:2827" placeholder="..." />
-            <marker date="1458540444000" expanded="true" signature="2607:2810" placeholder="&lt;%=...%&gt;" />
-            <marker date="1458540444000" expanded="true" signature="2913:3065" placeholder="..." />
-            <marker date="1458540444000" expanded="true" signature="3125:3241" placeholder="..." />
-            <marker date="1458540444000" expanded="true" signature="3323:3513" placeholder="..." />
-            <marker date="1458540444000" expanded="true" signature="3343:3439" placeholder="..." />
-            <marker date="1458540444000" expanded="true" signature="3371:3430" placeholder="..." />
-            <marker date="1458540444000" expanded="true" signature="3462:3505" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -817,19 +664,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5645757">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/payment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76383764">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding>
-            <marker date="1458541254000" expanded="true" signature="0:689" placeholder="//..." />
+            <marker date="1458529995000" expanded="true" signature="13:651" placeholder=" ... end" />
+            <marker date="1458529995000" expanded="true" signature="179:288" placeholder=" ... end" />
+            <marker date="1458529995000" expanded="true" signature="229:282" placeholder="{ ... }" />
+            <marker date="1458529995000" expanded="true" signature="313:370" placeholder=" ... end" />
+            <marker date="1458529995000" expanded="true" signature="393:646" placeholder=" ... end" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/credit_card_form.js.coffee">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.900369">
-          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.31474596">
+          <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/registrations_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2619926">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
           <folding>
-            <marker date="1458541443000" expanded="true" signature="1252:1368" placeholder="..." />
+            <marker date="1458548805000" expanded="true" signature="29:1454" placeholder=" ... end" />
+            <marker date="1458548805000" expanded="true" signature="77:1332" placeholder=" ... end" />
+            <marker date="1458548805000" expanded="true" signature="145:1326" placeholder="do ... end" />
+            <marker date="1458548805000" expanded="true" signature="212:1318" placeholder="if ... end" />
+            <marker date="1458548805000" expanded="true" signature="516:751" placeholder="begin ... end" />
+            <marker date="1458548805000" expanded="true" signature="761:1195" placeholder="if ... end" />
+            <marker date="1458548805000" expanded="true" signature="1382:1448" placeholder=" ... end" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/credit_card_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53136533">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1458549017000" expanded="true" signature="30:1860" placeholder="{...}" />
+            <marker date="1458549017000" expanded="true" signature="127:602" placeholder="{...}" />
+            <marker date="1458549017000" expanded="true" signature="350:428" placeholder="{...}" />
+            <marker date="1458549017000" expanded="true" signature="442:573" placeholder="{...}" />
+            <marker date="1458549017000" expanded="true" signature="709:1431" placeholder="{...}" />
+            <marker date="1458549017000" expanded="true" signature="797:975" placeholder="{...}" />
+            <marker date="1458549017000" expanded="true" signature="989:1402" placeholder="{...}" />
+            <marker date="1458549017000" expanded="true" signature="1470:1857" placeholder="{...}" />
+            <marker date="1458549017000" expanded="true" signature="1517:1617" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.033210333">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="36" />
+          <folding>
+            <marker date="1458549039000" expanded="true" signature="29:112" placeholder="..." />
+            <marker date="1458549039000" expanded="true" signature="197:2600" placeholder="..." />
+            <marker date="1458549039000" expanded="true" signature="227:293" placeholder="..." />
+            <marker date="1458549039000" expanded="false" signature="241:277" placeholder="&quot;Sign up&quot;" />
+            <marker date="1458549039000" expanded="true" signature="320:2593" placeholder="..." />
+            <marker date="1458549039000" expanded="true" signature="455:2582" placeholder="do ... end" />
+            <marker date="1458549039000" expanded="true" signature="494:613" placeholder="..." />
+            <marker date="1458549039000" expanded="true" signature="644:761" placeholder="..." />
+            <marker date="1458549039000" expanded="true" signature="792:929" placeholder="..." />
+            <marker date="1458549039000" expanded="true" signature="966:2483" placeholder="do ... end" />
+            <marker date="1458549039000" expanded="true" signature="1012:2467" placeholder="..." />
+            <marker date="1458549039000" expanded="true" signature="1074:1290" placeholder="..." />
+            <marker date="1458549039000" expanded="true" signature="1336:1540" placeholder="..." />
+            <marker date="1458549039000" expanded="true" signature="1586:2450" placeholder="..." />
+            <marker date="1458549039000" expanded="true" signature="1624:1733" placeholder="..." />
+            <marker date="1458549039000" expanded="true" signature="1770:2097" placeholder="..." />
+            <marker date="1458549039000" expanded="true" signature="1788:2077" placeholder="&lt;%=...%&gt;" />
+            <marker date="1458549039000" expanded="true" signature="2134:2431" placeholder="..." />
+            <marker date="1458549039000" expanded="true" signature="2152:2411" placeholder="&lt;%=...%&gt;" />
+            <marker date="1458549039000" expanded="true" signature="2506:2542" placeholder="&quot;Sign up&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/stripe.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.033210333">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
