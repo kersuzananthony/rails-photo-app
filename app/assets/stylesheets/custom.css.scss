@@ -63,7 +63,7 @@
 }
 .jumbotron {
   text-align: center;
-  background-image: asset-url('sky.jpg');
+  background-image: url(asset-path('sky.jpg'));
   background-size: cover;
   color: #fff;
   font-family: 'Helvetica Neue' !important;
