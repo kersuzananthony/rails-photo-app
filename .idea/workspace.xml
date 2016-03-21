@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b79ed30-3b43-419a-9349-d261f3a16786" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/credit_card_form.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/registrations_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
     </list>
     <ignored path="photo-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16605166">
-              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.69741696">
+              <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -65,7 +61,6 @@
         <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
         <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/initializers/stripe.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20160321030323_create_payments.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
@@ -76,6 +71,7 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/stripe.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -671,20 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6309963">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding>
-            <marker date="1458528817000" expanded="true" signature="436:547" placeholder="#..." />
-            <marker date="1458528817000" expanded="true" signature="950:1142" placeholder="#..." />
-            <marker date="1458528817000" expanded="true" signature="1170:1342" placeholder="do ... end" />
-            <marker date="1458528817000" expanded="true" signature="1363:1627" placeholder="do ... end" />
-            <marker date="1458528817000" expanded="true" signature="1647:1687" placeholder="do ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/stripe.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16605166">
@@ -804,8 +786,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16605166">
+        <state vertical-scroll-proportion="-1.2250923">
           <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <marker date="1458540444000" expanded="true" signature="31:3550" placeholder="..." />
+            <marker date="1458540444000" expanded="true" signature="38:1829" placeholder="..." />
+            <marker date="1458540444000" expanded="true" signature="1679:1819" placeholder="..." />
+            <marker date="1458540444000" expanded="true" signature="1836:3542" placeholder="..." />
+            <marker date="1458540444000" expanded="true" signature="1891:3298" placeholder="..." />
+            <marker date="1458540444000" expanded="true" signature="1917:3291" placeholder="..." />
+            <marker date="1458540444000" expanded="true" signature="2031:2156" placeholder="..." />
+            <marker date="1458540444000" expanded="true" signature="2276:3282" placeholder="..." />
+            <marker date="1458540444000" expanded="true" signature="2310:2472" placeholder="..." />
+            <marker date="1458540444000" expanded="true" signature="2517:3271" placeholder="..." />
+            <marker date="1458540444000" expanded="true" signature="2530:3257" placeholder="if ... end" />
+            <marker date="1458540444000" expanded="true" signature="2591:2827" placeholder="..." />
+            <marker date="1458540444000" expanded="true" signature="2607:2810" placeholder="&lt;%=...%&gt;" />
+            <marker date="1458540444000" expanded="true" signature="2913:3065" placeholder="..." />
+            <marker date="1458540444000" expanded="true" signature="3125:3241" placeholder="..." />
+            <marker date="1458540444000" expanded="true" signature="3323:3513" placeholder="..." />
+            <marker date="1458540444000" expanded="true" signature="3343:3439" placeholder="..." />
+            <marker date="1458540444000" expanded="true" signature="3371:3430" placeholder="..." />
+            <marker date="1458540444000" expanded="true" signature="3462:3505" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69741696">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
           <folding />
         </state>
       </provider>
