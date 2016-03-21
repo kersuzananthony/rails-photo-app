@@ -3,8 +3,6 @@ $(document).ready ->
   stripeResponseHandler
   submitHandler
 
-  $(".cc_form").on 'submit', submitHandler
-
   submitHandler = (event) ->
     $form = $(event.target)
     $form.find("input[type=submit]").prop 'disabled', true
@@ -51,3 +49,6 @@ $(document).ready ->
 
     $(".alert").delay(5000).fadeOut 3000
     false
+
+
+  $(".cc_form").on 'submit', submitHandler
