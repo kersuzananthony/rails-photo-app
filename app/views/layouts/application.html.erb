@@ -48,10 +48,11 @@
     </button>
     <a class="navbar-brand" href="#">PhotoApp</a>
     <div class="navbar-collapse collapse navbar-responsive-collapse">
+      <% if current_user %>
       <ul class="nav navbar-nav">
-        <li><%= link_to "Link2", "/path2" %></li>
-        <li><%= link_to "Link3", "/path3" %></li>
+        <li><%= link_to 'Images', images_path %></li>
       </ul>
+      <% end %>
       <ul class="nav navbar-right col-md-4">
         <% if current_user %>
             <li class="col-md-8 user-name">
