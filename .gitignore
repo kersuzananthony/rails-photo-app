@@ -7,6 +7,7 @@
 # Ignore bundler config.
 /.bundle
 .idea/
+.idea/workspace.xml
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
@@ -19,3 +20,4 @@
 
 # Ignore application configuration
 /config/application.yml
+/public/uploads
