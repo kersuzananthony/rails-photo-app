@@ -19,6 +19,9 @@ gem 'coffee-rails', '~> 4.1.0'
 
 gem 'stripe'
 gem 'figaro'
+gem 'carrierwave' # image uploader gem
+gem 'mini_magick' # image resizing gem
+gem 'fog'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
